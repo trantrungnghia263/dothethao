@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #e8e7e7f1 !important;
+}
+
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    position: relative;
+}
+
+#main .main-lefts {
+    width: 70%;
+}
+
+#main .main-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+}
+
+#main .main-left a {
+    text-decoration: none;
+}
+
+#main .main-left .img-left {
+    padding: 5px 0px 0px 5px;
+}
+
+#main .main-left .img-left img {
+    width: 310px !important;
+}
+
+#main .main-left .content-left {
+    margin-left: 20px;
+    padding: 10px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+#main .main-left .content-left .date {
+    font-size: 20px;
+    bottom: 0;
+}
+
+#main .main-left .content-left p {
+    color: rgb(81, 81, 81);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+#main .main-left .content-left h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #007cba;
+}
+
+#main .main-rights {
+    width: 30%;
+    margin-top: -535px;
+}
+
+#main .main-rights .main-right {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#main .baivietmoi {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#main .main-rights .baivietmoi .title-baiviet {
+    background-color: #007cba;
+    padding: 10px;
+}
+
+#main .main-rights .baivietmoi .title-baiviet h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#main .main-rights .baivietmoi .noidung-baiviet {
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid #e8e7e7f1;
+}
+
+#main .main-rights .baivietmoi .noidung-baiviet a {
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    font-size: 20px;
+}
+#main .main-rights .mucuuthich{
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#main .main-rights .mucuuthich .title-like {
+    background-color: #007cba;
+    padding: 10px;
+}
+#main .main-rights .mucuuthich .title-like h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#main .main-rights .mucuuthich .content-like{
+    padding: 5px;
+    text-align: justify;
+    border-bottom: 1px solid #e8e7e7f1;
+}
+#main .main-rights .mucuuthich .content-like ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    font-size: 20px;
+}
+#main .main-rights .mucuuthich .content-like ul li>div>a:hover{
+    background-color: #007cba;
+    color: white !important;
+}
+#main .main-rights .mucuuthich .content-like ul li a{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e8e7e7f1;
+}
+#main .main-rights .mucuuthich .content-like ul li a p{
+    margin-left: 10px;
+}
+#main .main-rights .mucuuthich .content-like ul li a img{
+    width: 100px;
+}
